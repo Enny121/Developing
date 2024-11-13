@@ -130,7 +130,7 @@ span{
     color: #fff;
     margin-top: -50px;
 }
-@media (max-width: auto){
+@media(max-width: 768px){
     .slider-wrapper{
         margin: 0 10px 40px;
     }
@@ -138,10 +138,33 @@ span{
         display: none;
     }
 }
+@media(max-width: 480px){
+    .slider-wrapper{
+        margin: 0 6.25px 25px;
+    }
+    .slider-wrapper .swiper-pagination-bullet{
+        display: none;
+    }
+}
+@media(max-width: 320px){
+        .slider-wrapper {
+                margin: 0 4.167px 16.67px;
+            }
+}
 #services-id{
     color: rgb(126, 126, 247);
     font-size: 6rem;
     font-weight: 600;
     text-align: center;
     padding-bottom: 4rem;
+}
+@media(max-width: 768px){
+    .header{
+        flex-direction: column;
+    }
+}
+@media(max-width: 480px){
+    .main{
+        padding: 20px;
+    }
 }
